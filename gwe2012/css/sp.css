@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, a, figure {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align:baseline;
+}
+
+article, figure, footer, section {
+	display:block;
+}
+
+
+body {
+	background-color: #FFF;
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+	-webkit-text-size-adjust : none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #181818;
+	font-weight: bolder;
+}
+
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+
+a {
+	color:#333;
+	font-weight:bold;
+}
+
+a img {
+	border: 0;
+	line-height: inherit;
+}
+
+p { margin: 0 0 20px 0; text-align:center; }
+
+p img { margin: 0; float: center;
+	-moz-box-shadow: 0px 0px 20px #999;
+	-webkit-box-shadow: 0px 0px 20px #999;
+	filter: progid:DXImageTransform.Microsoft.Glow(color=#666666,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=135,strength=6);
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+
+section p{
+	text-align:left;
+}
+
+footer {
+	font-size: 13px;
+}
+
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container { width: 768px;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container { width: 420px;}
+	p img { width: 400px; height: 570px; }
+}
+
+
+@media only screen and (max-width: 767px) {
+	.container { width: 300px;}
+	p img { width: 220px; height: 313px; }
+	p.lab img{ width: 150px; height: 150px;}
+}
+
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before, .clearfix:after,
+.row:before, .row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+	height: 0; }
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1; }
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}

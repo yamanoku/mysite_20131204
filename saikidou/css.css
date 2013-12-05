@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font:inherit;
+	font-family: 'PT serif', serif;
+	color: #333;
+	vertical-align:baseline;
+}
+
+h1 {
+	font-size: 22px;
+	font-style: italic;
+	line-height: 2;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+p {
+	line-height: 1.5;
+}
+
+a {
+	color:#333;
+}
+
+nav{
+	text-align:center;
+}
+
+nav a {
+ color: #000000;
+ padding: 6px;
+ margin: 0 6px;
+ background: #ffffff;
+ font-size: 16.5px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px; 
+ text-decoration:none !important; 
+}
+
+nav a:hover {
+ color: #000000;
+ background: #CCC;
+}
+
+div.main{
+	margin: 0 auto;
+	padding: 40px 0 20px;
+}
+
+div.main p{
+	float: left;
+	margin: 0 15px 15px;
+	padding: 0;
+}
+
+div.main img{
+	width: 430px;
+	height: 287px;
+}
+
+
+div.content{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+div.content h1{
+	font-size: 30px;
+	font-family: 'PT serif', serif;
+	text-align:center;
+	line-height: 2.5;
+}
+
+div.content p{
+	font-size: 17px;
+	text-align: center;
+}
+
+div.content p img{
+	margin-bottom: 25px;
+}
+
+.wrapper{
+	width: 768px;
+	margin: 0 auto;
+	padding: 10px 0 30px;
+	background: #EEE;
+	}
+
+.wrapper0{
+	background: #EFEFEF;
+}
+	
+.wrapper2{
+	background: #333;
+	}
+
+.wrapper3{
+	background: #555;
+}
+
+
+header p{
+	text-align: center;
+	margin: 30px 0 20px;
+}
+
+header .mask{
+	-webkit-mask-image: url(yamanoku.png);
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+}
+
+.prof p{
+	margin: 15px 0 10px;
+	font-size:13px;
+}
+
+.text {
+	margin:0 auto;
+	width:460px;
+}
+
+.text h1{
+	font-size:20px;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	font-style: normal;
+}
+
+#contact-area {
+	width: 450px;
+	margin: 40px auto;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 420px;
+	font-size:15px;
+	margin-bottom: 15px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 250px;
+	overflow: auto;
+}
+
+
+#contact-area input.submit-button{
+	width: 50%;
+	padding:10px;
+	color:#FFF;
+	text-align:center;
+	background: rgb(99,182,219); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(99,182,219,1) 0%, rgba(48,157,207,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(99,182,219,1)), color-stop(100%,rgba(48,157,207,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(99,182,219,1) 0%,rgba(48,157,207,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(99,182,219,1) 0%,rgba(48,157,207,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(99,182,219,1) 0%,rgba(48,157,207,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(99,182,219,1) 0%,rgba(48,157,207,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b6db', endColorstr='#309dcf',GradientType=0 ); /* IE6-9 */
+	zoom: 1;
+}
+
+#contact-area input.submit-button:hover{
+	background: #005580;
+}
+
+label {
+	margin-top: 5px;
+}
+
+#back-to-top {
+	position: fixed;
+	right: 10px;
+	bottom: 10px
+}
+
+#pos {
+	position: fixed;
+	left: 10px;
+	bottom: 10px
+}

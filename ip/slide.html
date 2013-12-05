@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<title>ポートフォリオ　スライド形式</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+<script src="jquery.flickable-1.0b3.js"></script>
+    <script type="text/javascript">
+      $(function() {
+          $('#flickable2').flickable({
+              section: 'li',
+			  elasticConstant: 0.25,
+			  friction: 0.5
+          });
+      });
+    </script>
+<style type="text/css">
+      #flickable2 {
+		margin: 0 auto;
+		height: auto;
+		overflow: hidden;
+      }
+      #flickable2 ul {
+        list-style: none;
+	    list-style-position: inside;
+        width:20000px;
+      }
+      #flickable2 ul li {
+        float: left;
+		width: 0 auto;
+		margin: 0;
+		padding: 0;
+      }
+      #flickable2 .block {
+		text-align: center;
+		margin: 0 auto;
+      }
+	  .portrait #flickable2 {
+		  height:811px;
+	  }
+	  .landscape #flickable2{
+		  height:554px;
+	  }
+	  .portrait #flickable2 .block{
+		  width: 769px;
+	  }
+	  .landscape #flickable2 .block{
+		  width: 1025px;
+	  }
+
+    </style>
+</head>
+
+<body>
+<div data-inset="true" data-role="page" data-theme="d"> 
+
+	<div data-role="header" data-position="fixed">
+		<h1>iPortfolio / スライド形式</h1>
+	</div>
+
+<div data-role="content" data-theme="a" id="flickable2">
+      <ul> 
+        <li><div class="block">
+       <p><a href="work.html" rel="external"><img src="listimage/work1-2.jpg" alt=""/></a>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work2.html" rel="external"><img src="listimage/work2-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work3.html" rel="external"><img src="listimage/work3-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work4.html" rel="external"><img src="listimage/work4-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work5.html" rel="external"><img src="listimage/work5-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work6.html" rel="external"><img src="listimage/work6-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work7.html" rel="external"><img src="listimage/work7-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work8.html" rel="external"><img src="listimage/work8-2.jpg" alt="" class="img8"/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work9.html" rel="external"><img src="listimage/work9-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work10.html" rel="external"><img src="listimage/work10-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work11.html" rel="external"><img src="listimage/work11-2.jpg" alt=""/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work12.html" rel="external"><img src="listimage/work12-2.jpg" alt="" class="img12"/></a></p>
+       </div></li>
+       <li><div class="block">
+       <p><a href="work13.html" rel="external"><img src="listimage/work13-2.jpg" alt="" class="img13"/></a></p>
+       </div></li>
+       </ul>
+    </div>
+   <div id="footer" data-role="footer" data-id="footer" data-theme="c">
+     <div data-role="navbar">
+      <ul>
+        <li><a href="list.html"  rel="external">リスト</a></li>
+        <li><a href="slide.html" rel="external" class="ui-btn-active ui-state-persist">スライド</a></li>
+        <li><a href="thumbnail.html" rel="external">サムネイル</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
