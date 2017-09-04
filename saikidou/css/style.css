@@ -27,9 +27,15 @@ html {
 }
 
 body { 
-  font: 13px 'Helvetica Neue', Arial, sans-serif, MSゴシック;
-  color: #222;
-  line-height: 1.6em;
+	font: 13px 'Helvetica Neue', Arial, sans-serif, MSゴシック;
+	color: #222;
+	line-height: 1.6em;
+	min-height:100%;
+	background:url(../image/galaxy_mini.jpg) no-repeat center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
 }
 
 a {

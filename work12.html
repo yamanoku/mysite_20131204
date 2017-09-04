@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>WORK12 : OKUTO OYAMA</title>
+<meta name="author" content="大山奥人 | Okuto Oyama" />
+<meta name="description" content="大山奥人のポートフォリオサイト。| Okuto Oyama's portfolio site." />
+<meta name="keywords" content="デザイン,グラフィックデザイン,webデザイン,ロゴデザイン,DTP" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0" />
+<!--[if It IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" href="icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="icon72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="icon114.png" />
+<link rel="stylesheet" href="css-min.css?20131231" />
+<!--[if IE 7]><link rel="stylesheet" href="fontello-ie7.css"><![endif]-->
+</head>
+<body id="top">
+<div class="wrapper">
+<div class="flame">
+<div class="menu">
+<ul>
+<li><a href="index.html" class="icon-home"></a></li>
+<li><a href="about.html" class="icon-user"></a></li>
+<li><a href="contact.html" class="icon-mail"></a></li>
+</ul>
+</div>
+<header>
+<p class="head2 animated bounceInDown"><img src="image/work12.jpg" class="mask"/></p>
+</header>
+<div class="content">
+<h1>GAMEOVERWORK</h1>
+<p>Artwork / Graphic / Web Design</p>
+<hr />
+<p><img src="image/work12_1.jpg" /></p>
+<p><img src="image/work12_2.jpg" /></p>
+<p><img src="image/work12_3.jpg" /></p>
+<p><img src="image/work12_4.png" /></p>
+<p>グラフィック制作<br>
+既存のイメージや価値を変化させる</p>
+<hr />
+<p><img src="image/work12_5.png" /></p>
+<p>ロゴデザイン</p>
+<hr />
+<p><img src="image/work12_6.jpg" /></p>
+<p><img src="image/work12_7.jpg" /></p>
+<p>サイトデザイン</p>
+<p id="font"><a href="http://oyamaokuto.org/gow">Link</a></p>
+</div>
+<nav class="foot">
+<a href="index.html" class="icon-home"></a>
+<a href="work11.html" class="icon-right-open"></a>
+</nav>
+<nav class="foot">
+<a href="#top" class="icon-up-dir"></a>
+</nav>
+</div>
+</div>
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("a[href^='http://']").attr("target","_blank")
+.css('background','#F5D75E')
+.css('text-decoration','none');
+$("#font").css('font-size','22px');
+});	</script>
+<script type="text/javascript">
+$(function(){
+$('a[href^=#]').click(function(){
+var speed = 3500;
+var href= $(this).attr("href");
+var target = $(href == "#" || href == "" ? 'html' : href);
+var position = target.offset().top;
+$("html, body").animate({scrollTop:position}, speed, "swing");
+return false;
+});
+});
+</script>
+</body>
+</html>
