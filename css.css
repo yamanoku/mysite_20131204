@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
 
 body {
 	margin: 0;
@@ -42,8 +42,8 @@ nav a {
 	font-size: 16.5px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	border-radius: 10px; 
-	text-decoration:none !important; 
+	border-radius: 10px;
+	text-decoration:none !important;
 }
 
 nav a:hover {
@@ -62,7 +62,7 @@ nav.foot a {
 	font-size: 30px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
-	border-radius: 50px; 
+	border-radius: 50px;
 	background: rgb(125,126,125); /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
@@ -137,78 +137,78 @@ div.content p img{
 	}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
-	
+
 	div.main{
 		margin: 0 auto;
 		padding: 40px 12px 0;
 		}
-	
+
 	div.main p{
 		float: left;
 		margin: 0 10px 20px;
 		padding: 0;
 		}
-		
+
 	div.main img{
 		width: 350px;
 		height: 233px;
 		}
-		
+
 	div.text {
 		margin: 0 auto;
 		width: 500px;
 	}
-	
+
 	.flame{
 		width: 768px;
 	}
-		
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
-	
+
 	nav a {
 	margin: 0 4px;
 	font-size: 14px;
 	}
-	
+
 	div.main{
 		margin: 0 auto;
 		margin-top: 35px;
 		}
-	
+
 	div.main p{
 		float: none;
 		text-align: center;
 		margin: 0 10px 20px;
 		padding: 0;
 		}
-		
+
 	div.main img{
 		width: 300px;
 		height: 200px;
 		}
-		
+
 	div.content h1{
 		font-size: 18px;
 		line-height: 4.5;
 		margin-top: -20px;
 		}
-		
+
 	div.prof{
 		margin-top: 45px;
 	}
-					
+
 	div.text {
 		margin: 0 auto;
 		width: 88%;
 	}
-	
+
 	div#contact-area {
 		width: 88%;
 		margin: 70px auto;
 	}
-	
+
 	header p{
 		margin-top: 10px;
 	}
@@ -223,13 +223,13 @@ div.content p img{
 		height: 15%;
 		overflow: auto;
 	}
-	
+
 	.flame{
 		width: 100%;
 		max-width: 100%;
 	}
 }
-	
+
 .wrapper2{
 	background: #555;
 	}
@@ -294,7 +294,7 @@ header .mask{
 	display: inline-block;
 	text-shadow: 1px 1px 0px #4d4d4d;
  	font-size: 1em;
- 	text-decoration:none !important; 
+ 	text-decoration:none !important;
 }
 
 .menu a:hover{
@@ -400,16 +400,16 @@ label {
 		opacity: 0;
 		-webkit-transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-webkit-transform: translateY(30px);
 	}
-	
+
 	80% {
 		-webkit-transform: translateY(-10px);
 	}
-	
+
 	100% {
 		-webkit-transform: translateY(0);
 	}
@@ -420,16 +420,16 @@ label {
 		opacity: 0;
 		-moz-transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-moz-transform: translateY(30px);
 	}
-	
+
 	80% {
 		-moz-transform: translateY(-10px);
 	}
-	
+
 	100% {
 		-moz-transform: translateY(0);
 	}
@@ -440,16 +440,16 @@ label {
 		opacity: 0;
 		-o-transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-o-transform: translateY(30px);
 	}
-	
+
 	80% {
 		-o-transform: translateY(-10px);
 	}
-	
+
 	100% {
 		-o-transform: translateY(0);
 	}
@@ -460,16 +460,16 @@ label {
 		opacity: 0;
 		transform: translateY(-2000px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		transform: translateY(30px);
 	}
-	
+
 	80% {
 		transform: translateY(-10px);
 	}
-	
+
 	100% {
 		transform: translateY(0);
 	}
